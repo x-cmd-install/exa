@@ -23,11 +23,21 @@ x install exa
 - **Latest**: `v0.10.1` (2021-04-12)
 - **Last commit**: 2024-09-24
 - **Assets in release**: 6
-- **Published**: 2021-04-12T21:42:01Z
+
+## Release assets
+
+| Asset | Size | Target |
+|-------|-----:|--------|
+| [exa-accoutrements-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-accoutrements-v0.10.1.zip) | 9.1 KiB | `other` |
+| [exa-linux-armv7-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-armv7-v0.10.1.zip) | 631.7 KiB | `native/linux/arm` |
+| [exa-linux-x86_64-musl-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-musl-v0.10.1.zip) | 879.1 KiB | `native/linux/x64/musl` |
+| [exa-linux-x86_64-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-v0.10.1.zip) | 709.4 KiB | `native/linux/x64` |
+| [exa-macos-x86_64-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-macos-x86_64-v0.10.1.zip) | 612.8 KiB | `native/darwin/x64` |
+| [exa-vendored-source-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-vendored-source-v0.10.1.zip) | 20.9 MiB | `other` |
 
 ## Popularity
 
-- **Stars**: 24,444 · **Forks**: 652 · **Open issues**: 885 · **Contributors**: 149
+- **Stars**: 24,446 · **Forks**: 652 · **Open issues**: 885 · **Contributors**: 149
 
 ## Totals (cumulative)
 
@@ -68,8 +78,8 @@ Lowest-scoring checks:
 Install metadata for exa lives in the [x-cmd/install](https://github.com/x-cmd/install) index — a curated YAML package list that x-cmd consumes at install time. If `exa` is missing, out of date, or installs incorrectly, please open an issue or PR there:
 
 - **Open an issue**: <https://github.com/x-cmd/install/issues/new>
-- **Edit the package entry**: <https://github.com/x-cmd/edit/main/exa.yml> (or whichever path the index uses)
+- **Edit the package entry**: <https://github.com/x-cmd/install/edit/main/exa.yml> (or whichever path the index uses)
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T02:01:01Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T15:51:04Z._

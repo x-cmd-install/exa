@@ -4,7 +4,7 @@
 
 A modern replacement for ‘ls’.
 
-![exa](https://repo.x-cmd.io/exa.svg)
+![exa](https://repo.x-cmd.io/exa.svg?lang=zh)
 
 ## 安装
 
@@ -23,11 +23,21 @@ x install exa
 - **最新版本**: `v0.10.1` (2021-04-12)
 - **最近提交**: 2024-09-24
 - **Release 含资产**: 6 个
-- **发布时间**: 2021-04-12T21:42:01Z
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [exa-accoutrements-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-accoutrements-v0.10.1.zip) | 9.1 KiB | `other` |
+| [exa-linux-armv7-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-armv7-v0.10.1.zip) | 631.7 KiB | `native/linux/arm` |
+| [exa-linux-x86_64-musl-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-musl-v0.10.1.zip) | 879.1 KiB | `native/linux/x64/musl` |
+| [exa-linux-x86_64-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-v0.10.1.zip) | 709.4 KiB | `native/linux/x64` |
+| [exa-macos-x86_64-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-macos-x86_64-v0.10.1.zip) | 612.8 KiB | `native/darwin/x64` |
+| [exa-vendored-source-v0.10.1.zip](https://github.com/ogham/exa/releases/download/v0.10.1/exa-vendored-source-v0.10.1.zip) | 20.9 MiB | `other` |
 
 ## 流行度
 
-- **Star**: 24,444 · **Fork**: 652 · **开放 issue**: 885 · **贡献者**: 149
+- **Star**: 24,446 · **Fork**: 652 · **开放 issue**: 885 · **贡献者**: 149
 
 ## 累计统计
 
@@ -72,4 +82,4 @@ exa 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索�
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T02:01:01Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T15:51:05Z._
