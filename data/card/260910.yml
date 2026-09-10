@@ -7,7 +7,7 @@ about:
   latestVersion: "v0.10.1"
   latestRelease: "v0.10.1"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T02:00:55Z
+  collectedAt: 2026-09-10T15:50:54Z
 timeline:
   created: 2014-05-22
   lastCommit: 2024-09-24
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2021-04-12
   lastPrerelease: 
 popularity:
-  star: 24444
+  star: 24446
   watcher: 133
   fork: 652
   release: 12
@@ -85,7 +85,7 @@ total:
   commit: 1618
 ---
 path: /home/runner/.x-repo/github.com/ogham/exa
-collectedAt: 2026-09-10T02:00:57Z
+collectedAt: 2026-09-10T15:50:57Z
 loc:
   Rust:
     code: 7465
