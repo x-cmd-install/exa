@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 900205,
       "digest": null,
-      "download_count": 444990,
+      "download_count": 445065,
       "created_at": "2021-04-12T22:31:50Z",
       "updated_at": "2021-04-12T22:31:52Z",
       "browser_download_url": "https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-musl-v0.10.1.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 726433,
       "digest": null,
-      "download_count": 127770,
+      "download_count": 127773,
       "created_at": "2021-04-12T22:31:52Z",
       "updated_at": "2021-04-12T22:31:53Z",
       "browser_download_url": "https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-v0.10.1.zip"

@@ -1,0 +1,521 @@
+- repo: alpine_3_17
+  subrepo: community
+  srcname: exa
+  binname: exa-zsh-completion
+  visiblename: exa-zsh-completion
+  version: 0.10.1
+  origversion: 0.10.1-r3
+  status: newest
+  summary: Zsh completions for exa
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: wikidata
+  srcname: Q57838499
+  visiblename: exa
+  version: 0.10.1
+  origversion: null
+  status: newest
+  summary: command line tool similar to ls to display files and folders
+  licenses:
+    - MIT License
+- repo: alpine_3_17
+  subrepo: community
+  srcname: exa
+  binname: exa-bash-completion
+  visiblename: exa-bash-completion
+  version: 0.10.1
+  origversion: 0.10.1-r3
+  status: newest
+  summary: Bash completions for exa
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: exa
+  binname: exa-fish-completion
+  visiblename: exa-fish-completion
+  version: 0.10.1
+  origversion: 0.10.1-r3
+  status: newest
+  summary: Fish completions for exa
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: exa
+  binname: exa
+  visiblename: exa
+  version: 0.10.1
+  origversion: 0.10.1-r3
+  status: newest
+  summary: ls replacement written in Rust
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: exa
+  binname: exa-doc
+  visiblename: exa-doc
+  version: 0.10.1
+  origversion: 0.10.1-r3
+  status: newest
+  summary: ls replacement written in Rust (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: exa
+  binname: exa
+  visiblename: exa
+  version: 0.10.1
+  origversion: 0.10.1-r4
+  status: newest
+  summary: ls replacement written in Rust
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: exa
+  binname: exa-bash-completion
+  visiblename: exa-bash-completion
+  version: 0.10.1
+  origversion: 0.10.1-r4
+  status: newest
+  summary: Bash completions for exa
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: exa
+  binname: exa-doc
+  visiblename: exa-doc
+  version: 0.10.1
+  origversion: 0.10.1-r4
+  status: newest
+  summary: ls replacement written in Rust (documentation)
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: exa
+  binname: exa-fish-completion
+  visiblename: exa-fish-completion
+  version: 0.10.1
+  origversion: 0.10.1-r4
+  status: newest
+  summary: Fish completions for exa
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_18
+  subrepo: community
+  srcname: exa
+  binname: exa-zsh-completion
+  visiblename: exa-zsh-completion
+  version: 0.10.1
+  origversion: 0.10.1-r4
+  status: newest
+  summary: Zsh completions for exa
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: aosc
+  srcname: app-utils/exa
+  binname: exa
+  visiblename: exa
+  version: "0"
+  origversion: 1:0-1
+  status: outdated
+  summary: Transitional package for eza
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - utils
+- repo: chromebrew
+  srcname: exa
+  visiblename: exa
+  version: 0.10.1-1
+  origversion: null
+  status: untrusted
+  summary: Exa is a modern replacement for ls
+  licenses:
+    - Apache-2.0, MIT and Unlicense
+- repo: crates_io
+  srcname: exa
+  visiblename: exa
+  version: 0.10.1
+  origversion: null
+  status: newest
+  summary: A modern replacement for ls
+- repo: debian_11
+  subrepo: bullseye/main
+  srcname: rust-exa
+  binnames:
+    - librust-exa-dev
+    - exa
+  visiblename: rust-exa
+  version: 0.9.0
+  origversion: 0.9.0-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: rust-exa
+  binnames:
+    - exa
+  visiblename: rust-exa
+  version: 0.10.1
+  origversion: 0.10.1-4
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: rust-exa
+  binnames:
+    - librust-exa-dev
+    - librust-exa+git-dev
+    - librust-exa+git2-dev
+    - exa
+  visiblename: rust-exa
+  version: 0.8.0
+  origversion: 0.8.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - sylvestre@debian.org
+- repo: deepin_23
+  subrepo: main
+  srcname: rust-exa
+  binnames:
+    - exa
+  visiblename: rust-exa
+  version: 0.10.1
+  origversion: 0.10.1-4
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: deepin_25
+  subrepo: main
+  srcname: rust-exa
+  binnames:
+    - exa
+  visiblename: rust-exa
+  version: 0.10.1
+  origversion: 0.10.1-4
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - utils
+- repo: devuan_4_0
+  subrepo: chimaera/main
+  srcname: rust-exa
+  binnames:
+    - librust-exa-dev
+    - exa
+  visiblename: rust-exa
+  version: 0.9.0
+  origversion: 0.9.0-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: exherbo
+  subrepo: rust
+  srcname: sys-apps/exa
+  visiblename: sys-apps/exa
+  version: 0.10.1
+  origversion: null
+  status: newest
+  summary: A modern replacement for ls
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - sys-apps
+- repo: freebsd
+  srcname: sysutils/exa
+  binname: exa
+  visiblename: sysutils/exa
+  version: 0.10.1
+  origversion: 0.10.1_55
+  status: newest
+  summary: Modern replacement for ls
+  maintainers:
+    - ports@freebsd.org
+  categories:
+    - sysutils
+- repo: kiss_community
+  subrepo: community
+  srcname: exa
+  visiblename: exa
+  version: 0.10.1
+  origversion: null
+  status: newest
+  maintainers:
+    - me@armaanb.net
+- repo: openmandriva_6_0
+  subrepo: main/release
+  srcname: rust-exa
+  binnames:
+    - exa
+    - rust-exa-debuginfo
+    - rust-exa-debugsource
+  visiblename: rust-exa
+  version: 0.9.0
+  origversion: 0.9.0-6
+  status: outdated
+  summary: Modern replacement for ls
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: openmandriva_rolling
+  subrepo: main/release
+  srcname: rust-exa
+  binnames:
+    - exa
+    - rust-exa-debuginfo
+    - rust-exa-debugsource
+  visiblename: rust-exa
+  version: 0.9.0
+  origversion: 0.9.0-6
+  status: outdated
+  summary: Modern replacement for ls
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: openmandriva_cooker
+  subrepo: main/release
+  srcname: rust-exa
+  binnames:
+    - exa
+    - rust-exa-debuginfo
+    - rust-exa-debugsource
+  visiblename: rust-exa
+  version: 0.9.0
+  origversion: 0.9.0-6
+  status: outdated
+  summary: Modern replacement for ls
+  maintainers:
+    - bero@lindev.ch
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: openpkg_current
+  srcname: exa
+  visiblename: exa
+  version: 0.10.1
+  origversion: null
+  status: newest
+  summary: Extended Directory Lister
+  licenses:
+    - MIT
+  categories:
+    - Filesystem
+- repo: opensuse_leap_15_5
+  subrepo: main/oss
+  srcname: exa
+  visiblename: exa
+  version: 0.9.0
+  origversion: 0.9.0-bp155.2.50
+  status: outdated
+  summary: Replacement for ls written in Rust
+  licenses:
+    - MIT
+  categories:
+    - System/Base
+- repo: opensuse_leap_15_6
+  subrepo: main/oss
+  srcname: exa
+  visiblename: exa
+  version: 0.9.0
+  origversion: 0.9.0-bp156.3.47
+  status: outdated
+  summary: Replacement for ls written in Rust
+  licenses:
+    - MIT
+  categories:
+    - System/Base
+- repo: pardus_21
+  subrepo: main
+  srcname: rust-exa
+  binnames:
+    - librust-exa-dev
+    - exa
+  visiblename: rust-exa
+  version: 0.9.0
+  origversion: 0.9.0-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: pclinuxos
+  srcname: exa
+  visiblename: exa
+  version: 0.9.0
+  origversion: 0.9.0-1pclos2021
+  status: outdated
+  summary: Replacement for ls written in Rust
+  categories:
+    - File tools
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: rust-exa
+  binnames:
+    - exa
+    - librust-exa+git-dev
+    - librust-exa+git2-dev
+    - librust-exa-dev
+  visiblename: rust-exa
+  version: 0.8.0
+  origversion: 0.8.0-2
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - utils
+- repo: pureos_byzantium
+  subrepo: byzantium/main
+  srcname: rust-exa
+  binnames:
+    - exa
+    - librust-exa-dev
+  visiblename: rust-exa
+  version: 0.9.0
+  origversion: 0.9.0-5
+  status: outdated
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - utils
+- repo: raspbian_oldstable
+  subrepo: main
+  srcname: rust-exa
+  binnames:
+    - exa
+  visiblename: rust-exa
+  version: 0.10.1
+  origversion: 0.10.1-4
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - misc
+- repo: rosa_13
+  subrepo: contrib/release
+  srcname: exa
+  binnames:
+    - exa
+  visiblename: exa
+  version: 0.10.1
+  origversion: 0.10.1-1
+  status: newest
+  summary: A modern replacement for ‘ls’
+  maintainers:
+    - alexander@mezon.ru
+  licenses:
+    - MIT
+  categories:
+    - Development/Other
+- repo: trisquel_11_0
+  subrepo: aramo/main
+  srcname: rust-exa
+  binnames:
+    - exa
+  visiblename: rust-exa
+  version: 0.10.1
+  origversion: 0.10.1-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: rust-exa
+  binnames:
+    - exa
+  visiblename: rust-exa
+  version: 0.10.1
+  origversion: 0.10.1-2
+  status: newest
+  maintainers:
+    - pkg-rust-maintainers@alioth-lists.debian.net
+    - git@rxv.cc
+    - infinity0@debian.org
+    - sylvestre@debian.org
+  categories:
+    - universe/misc
+- repo: wakemeops
+  subrepo: terminal
+  binname: exa
+  visiblename: exa
+  version: 0.10.1
+  origversion: 0.10.1-4~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
