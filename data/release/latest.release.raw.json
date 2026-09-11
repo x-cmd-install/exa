@@ -103,7 +103,7 @@
       "state": "uploaded",
       "size": 646871,
       "digest": null,
-      "download_count": 8541,
+      "download_count": 8544,
       "created_at": "2021-04-12T22:31:45Z",
       "updated_at": "2021-04-12T22:31:50Z",
       "browser_download_url": "https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-armv7-v0.10.1.zip"
@@ -139,7 +139,7 @@
       "state": "uploaded",
       "size": 900205,
       "digest": null,
-      "download_count": 445118,
+      "download_count": 445371,
       "created_at": "2021-04-12T22:31:50Z",
       "updated_at": "2021-04-12T22:31:52Z",
       "browser_download_url": "https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-musl-v0.10.1.zip"
@@ -175,7 +175,7 @@
       "state": "uploaded",
       "size": 726433,
       "digest": null,
-      "download_count": 127781,
+      "download_count": 127800,
       "created_at": "2021-04-12T22:31:52Z",
       "updated_at": "2021-04-12T22:31:53Z",
       "browser_download_url": "https://github.com/ogham/exa/releases/download/v0.10.1/exa-linux-x86_64-v0.10.1.zip"
@@ -211,7 +211,7 @@
       "state": "uploaded",
       "size": 627486,
       "digest": null,
-      "download_count": 23739,
+      "download_count": 23741,
       "created_at": "2021-04-12T22:31:53Z",
       "updated_at": "2021-04-12T22:31:54Z",
       "browser_download_url": "https://github.com/ogham/exa/releases/download/v0.10.1/exa-macos-x86_64-v0.10.1.zip"
