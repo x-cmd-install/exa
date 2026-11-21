@@ -1,12 +1,34 @@
-- repo: alpine_3_18
+- repo: kiss_community
   subrepo: community
   srcname: exa
-  binname: exa
   visiblename: exa
   version: 0.10.1
-  origversion: 0.10.1-r4
+  origversion: null
   status: newest
-  summary: ls replacement written in Rust
+  maintainers:
+    - me@armaanb.net
+- repo: alpine_3_17
+  subrepo: community
+  srcname: exa
+  binname: exa-zsh-completion
+  visiblename: exa-zsh-completion
+  version: 0.10.1
+  origversion: 0.10.1-r3
+  status: newest
+  summary: Zsh completions for exa
+  maintainers:
+    - jakub@jirutka.cz
+  licenses:
+    - MIT
+- repo: alpine_3_17
+  subrepo: community
+  srcname: exa
+  binname: exa-bash-completion
+  visiblename: exa-bash-completion
+  version: 0.10.1
+  origversion: 0.10.1-r3
+  status: newest
+  summary: Bash completions for exa
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -50,28 +72,15 @@
     - jakub@jirutka.cz
   licenses:
     - MIT
-- repo: alpine_3_17
+- repo: alpine_3_18
   subrepo: community
   srcname: exa
-  binname: exa-zsh-completion
-  visiblename: exa-zsh-completion
+  binname: exa
+  visiblename: exa
   version: 0.10.1
-  origversion: 0.10.1-r3
+  origversion: 0.10.1-r4
   status: newest
-  summary: Zsh completions for exa
-  maintainers:
-    - jakub@jirutka.cz
-  licenses:
-    - MIT
-- repo: alpine_3_17
-  subrepo: community
-  srcname: exa
-  binname: exa-bash-completion
-  visiblename: exa-bash-completion
-  version: 0.10.1
-  origversion: 0.10.1-r3
-  status: newest
-  summary: Bash completions for exa
+  summary: ls replacement written in Rust
   maintainers:
     - jakub@jirutka.cz
   licenses:
@@ -189,22 +198,6 @@
     - sylvestre@debian.org
   categories:
     - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: rust-exa
-  binnames:
-    - librust-exa-dev
-    - librust-exa+git-dev
-    - librust-exa+git2-dev
-    - exa
-  visiblename: rust-exa
-  version: 0.8.0
-  origversion: 0.8.0-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - sylvestre@debian.org
 - repo: deepin_23
   subrepo: main
   srcname: rust-exa
@@ -278,15 +271,6 @@
     - ports@freebsd.org
   categories:
     - sysutils
-- repo: kiss_community
-  subrepo: community
-  srcname: exa
-  visiblename: exa
-  version: 0.10.1
-  origversion: null
-  status: newest
-  maintainers:
-    - me@armaanb.net
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: rust-exa
