@@ -1,12 +1,12 @@
-- repo: kiss_community
-  subrepo: community
-  srcname: exa
+- repo: wikidata
+  srcname: Q57838499
   visiblename: exa
   version: 0.10.1
   origversion: null
   status: newest
-  maintainers:
-    - me@armaanb.net
+  summary: command line tool similar to ls to display files and folders
+  licenses:
+    - MIT License
 - repo: alpine_3_17
   subrepo: community
   srcname: exa
@@ -271,6 +271,15 @@
     - ports@freebsd.org
   categories:
     - sysutils
+- repo: kiss_community
+  subrepo: community
+  srcname: exa
+  visiblename: exa
+  version: 0.10.1
+  origversion: null
+  status: newest
+  maintainers:
+    - me@armaanb.net
 - repo: openmandriva_6_0
   subrepo: main/release
   srcname: rust-exa
@@ -375,24 +384,6 @@
   summary: Replacement for ls written in Rust
   categories:
     - File tools
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: rust-exa
-  binnames:
-    - exa
-    - librust-exa+git-dev
-    - librust-exa+git2-dev
-    - librust-exa-dev
-  visiblename: rust-exa
-  version: 0.8.0
-  origversion: 0.8.0-2
-  status: outdated
-  maintainers:
-    - pkg-rust-maintainers@alioth-lists.debian.net
-    - infinity0@debian.org
-    - sylvestre@debian.org
-  categories:
-    - utils
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: rust-exa
@@ -467,12 +458,3 @@
   status: newest
   maintainers:
     - ops2deb@upciti.com
-- repo: wikidata
-  srcname: Q57838499
-  visiblename: exa
-  version: 0.10.1
-  origversion: null
-  status: newest
-  summary: command line tool similar to ls to display files and folders
-  licenses:
-    - MIT License
